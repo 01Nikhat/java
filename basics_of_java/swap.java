@@ -7,6 +7,6 @@ public class swap {
         int temp = num1;
         num1 = num2;
         num2 = temp;
-        System.out.println("Your Swap numers are : "+ num1 + " " + num2);
+        System.out.println("Your Swap numbers are : "+ num1 + " " + num2);
     }
 }

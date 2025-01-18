@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class DoubleArray {
   public static void main(String[] args) {
     
@@ -24,6 +26,19 @@ public class DoubleArray {
 //     3 3 3 6
 //     7 5 0 5
 //     9 5 8 5
+
+/* --------- second example--------------------------  */
+
+    //If we want to add elements dynamically, use ArrayList, which allows dynamic resizing:
+    ArrayList<String> names = new ArrayList<>();
+    names.add("nikhat");
+    names.add("sam");
+    names.add("naaz");
+
+    for(String name : names){
+      System.out.println(name);
+    }
+    /* -----------------------Third Example ------------------------------------------ */
 
 //A jagged array in Java is an array of arrays where each sub-array can have a different length.
 

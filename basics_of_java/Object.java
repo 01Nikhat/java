@@ -4,17 +4,14 @@ class Calculator {
 
   // A public method named `add` that takes two integers as input and returns an integer
   public int add(int num1, int num2) {
-      // Printing "Addition :" to the console
-      System.out.print("Addition :");
-
+      
       // Performing the addition of num1 and num2, storing the result in a variable
       int result = num1 + num2;
 
-      // Printing the addition result to the console
-      System.out.println(result);
+      
 
       // Returning 0 (though the result of the addition is calculated, it is not returned)
-      return 0; 
+      return result; 
   }
 }
 
@@ -31,7 +28,12 @@ public class Object {
       Calculator calc = new Calculator();
 
       // Calling the add method of the Calculator object and passing num1 and num2 as arguments
-      calc.add(num1, num2);
+      int result = calc.add(num1, num2);
+      
+      // Printing the addition result to the console
+      
+
+      System.out.println("Addition :"+result);
   }
 }
 

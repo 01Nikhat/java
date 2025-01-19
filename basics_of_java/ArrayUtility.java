@@ -16,5 +16,4 @@ public class ArrayUtility {
         }
         return nums;
     }
-
 }

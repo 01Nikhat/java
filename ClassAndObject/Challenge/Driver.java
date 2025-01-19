@@ -1,5 +1,5 @@
 public class Driver {
-    public static void main(String[] args) {
+    public static void main(StringDemo[] args) {
         System.out.println("Driver is ready");
 
         // Create an instance of the Car class

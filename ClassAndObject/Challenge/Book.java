@@ -1,8 +1,8 @@
 public class Book {
     static int totalBooks;
-    String title;
-    String author;
-    String isbookName;
+    StringDemo title;
+    StringDemo author;
+    StringDemo isbookName;
     Boolean isBorrowed;
     static {
         totalBooks = 0;
@@ -10,12 +10,12 @@ public class Book {
     {
         totalBooks++;
     }
-    Book(String isbookName, String title, String author){
+    Book(StringDemo isbookName, StringDemo title, StringDemo author){
         this.isbookName = isbookName;
         this.author = author;
         this.title = title;
     }
-    Book(String isbookName, String title){
+    Book(StringDemo isbookName, StringDemo title){
         this(isbookName,title,"Unknown");
     }
     static int getTotalBooks(){

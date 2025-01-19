@@ -1,6 +1,6 @@
 class AssignmentOperator {
 
-  public static void main(String[] args) {
+  public static void main(StringDemo[] args) {
     int num1 = 7;
     int num2 = 5;
 

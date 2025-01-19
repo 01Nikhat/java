@@ -1,7 +1,7 @@
 package basics_of_java;
 
 public class maximumAndMinimum {
-    public static  void main(String[] args){
+    public static  void main(StringDemo[] args){
         int[] numArray = ArrayUtility.inputArray();
         int max = FindMaximum(numArray);
         int min = FindMinimum(numArray);

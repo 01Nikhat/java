@@ -1,7 +1,7 @@
 package basics_of_java;
 
 public class ArrayPalindrome {
-    public static void main(String[] args){
+    public static void main(StringDemo[] args){
         int [] numArray = ArrayUtility.inputArray();
         boolean palindrome = Palindrome(numArray);
         if (palindrome){

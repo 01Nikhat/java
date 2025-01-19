@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class ForEachLoop {
-  public static void main(String[] args) {
+  public static void main(StringDemo[] args) {
     int arr[] = new int[5];
 
     // Assign random values using a traditional for loop
@@ -19,12 +19,12 @@ public class ForEachLoop {
     /* --------- second example--------------------------  */
 
     //If we want to add elements dynamically, use ArrayList, which allows dynamic resizing:
-    ArrayList<String> names = new ArrayList<>();
+    ArrayList<StringDemo> names = new ArrayList<>();
     names.add("nikhat");
     names.add("sam");
     names.add("naaz");
 
-    for(String name : names){
+    for(StringDemo name : names){
       System.out.println(name);
     }
     

@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class DoubleArray {
-  public static void main(String[] args) {
+  public static void main(StringDemo[] args) {
     
 
     int array[][] = new int[3][4]; //here array[3] represent 3 row present,  array[4] represent in each row there are 4 elements present
@@ -30,12 +30,12 @@ public class DoubleArray {
 /* --------- second example--------------------------  */
 
     //If we want to add elements dynamically, use ArrayList, which allows dynamic resizing:
-    ArrayList<String> names = new ArrayList<>();
+    ArrayList<StringDemo> names = new ArrayList<>();
     names.add("nikhat");
     names.add("sam");
     names.add("naaz");
 
-    for(String name : names){
+    for(StringDemo name : names){
       System.out.println(name);
     }
     /* -----------------------Third Example ------------------------------------------ */

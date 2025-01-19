@@ -1,5 +1,5 @@
 class Hello{
-  public static void main(String[] args) {
+  public static void main(StringDemo[] args) {
       
       int num = 9; //it takes 4 Byte which is 32 bit
       byte by = 127; //it takes 1 Byte which is 8 bit so maximum range 127

@@ -1,15 +1,15 @@
 public class Course {
-    String courseName;
-    String enrolledStudents;
+    StringDemo courseName;
+    StringDemo enrolledStudents;
     static int maxCapacity;
 
    Book  myBook = new Book( "DBMS","Gate" );
 
 
-    public void enrollStudent(String studentName){
+    public void enrollStudent(StringDemo studentName){
 
     }
-    public void unenrollStudent(String studentName){
+    public void unenrollStudent(StringDemo studentName){
 
     }
     static public void setMaxCapacity(int capacity){

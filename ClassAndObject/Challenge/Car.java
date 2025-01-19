@@ -1,6 +1,6 @@
 public class Car {
     int noOfWheel;
-    String color;
+    StringDemo color;
     float maxSpeed;
     float currentFuel;
     int noOfSeats;
@@ -10,7 +10,7 @@ public class Car {
     {
         System.out.println("init block is called ");
     }
-    Car(String color){
+    Car(StringDemo color){
         maxSpeed = 150;
         this.color = color;
         currentFuel = 2;

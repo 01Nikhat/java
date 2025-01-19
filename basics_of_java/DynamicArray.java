@@ -1,11 +1,11 @@
 class Student{
   int rollno;
-  StringDemo name;
+  String name;
   int marks;
 }
 
 public class DynamicArray {
-  public static void main(StringDemo[] args) {
+  public static void main(String[] args) {
 
     //here i am making three object of Student class
      Student s1 = new Student();

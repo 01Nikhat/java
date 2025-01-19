@@ -3,7 +3,7 @@ package basics_of_java;
 import java.util.Scanner;
 
 public class DeleteElementOfArray {
-    public static  void main (StringDemo[] args){
+    public static  void main (String[] args){
         Scanner input = new Scanner(System.in);
         int [] numArray = ArrayUtility.inputArray();
 

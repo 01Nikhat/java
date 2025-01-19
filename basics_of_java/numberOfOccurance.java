@@ -3,7 +3,7 @@ package basics_of_java;
 import java.util.Scanner;
 
 public class numberOfOccurance {
-    public static  void main(StringDemo[] args){
+    public static  void main(String[] args){
         int[] numArray = ArrayUtility.inputArray();
         System.out.print("Finding Number of Occurance");
         Scanner input = new Scanner(System.in);

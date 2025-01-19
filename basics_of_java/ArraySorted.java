@@ -1,7 +1,7 @@
 package basics_of_java;
 
 public class ArraySorted {
-    public static void main(StringDemo[] args) {
+    public static void main(String[] args) {
         // Input array from the user
         int[] numArray = ArrayUtility.inputArray();
 

@@ -1,7 +1,7 @@
 package basics_of_java;
 
 public class ReverseArray {
-    public static void main(StringDemo[] args){
+    public static void main(String[] args){
         int[] numArray = ArrayUtility.inputArray();
         int[] reverse = reversingArray(numArray);
         System.out.print("Reverse Array elements are :");

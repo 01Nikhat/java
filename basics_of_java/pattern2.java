@@ -1,7 +1,7 @@
 package basics_of_java;
 
 public class pattern2 {
-    public static void main(StringDemo[] args){
+    public static void main(String[] args){
 //        System.out.println("* * * * * * ");
 //        System.out.println(" * * * * *  ");
 //        System.out.println("   * * *    ");

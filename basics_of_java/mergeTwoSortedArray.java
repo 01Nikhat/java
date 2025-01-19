@@ -1,7 +1,7 @@
 package basics_of_java;
 
 public class mergeTwoSortedArray {
-    public static void main(StringDemo[] args){
+    public static void main(String[] args){
         int[] arr1 = ArrayUtility.inputArray();
         int[] arr2 = ArrayUtility.inputArray();
         int[ ] mergeArray = mergingSortedArray(arr1,arr2);

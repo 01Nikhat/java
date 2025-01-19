@@ -44,7 +44,7 @@ class Calculator {
 }
 
 public class MethodOverLoading {
-  public static void main(StringDemo[] args) {
+  public static void main(String[] args) {
       int n1 = 5;
       int n2 = 6;
       int n3 = 8;

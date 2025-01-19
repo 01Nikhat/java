@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class SwitchCase{
-  public static void main(StringDemo[] args) {
+  public static void main(String[] args) {
       Scanner input = new Scanner(System.in);
       System.out.println("Welcome to day of the week detector");
       System.out.print("Enter your Day in number : ");

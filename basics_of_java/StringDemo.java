@@ -84,7 +84,19 @@ public class StringDemo {
       // Output: 7 (World starts at index 7)
 
     
+    /* ---------------------------------- Mutable String ---------------------------------  */
 
+    StringBuffer strtbfr = new StringBuffer("Naaz"); //here we can change the string value 
+
+    //strtbfr = strtbfr + "parvin"; // + operator operation can't done by StringBuffer not allowed
+
+    strtbfr.append("parvin"); 
+
+    System.out.println("BufferString :"+strtbfr); //this is buffer string 
+    String bfrtostr = strtbfr.toString();
+    System.out.println("changing bufferString to String  :"+ bfrtostr);
+
+    
 
     
   }

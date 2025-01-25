@@ -8,12 +8,17 @@ public class ScientificCalc {
         int r2 = obj.sub(8, 2); // Calling the sub() method from the Calc class
         int r3 = obj.multiply(3, 5); // Calling the multiply() method from AdvancedCalc
         int r4 = obj.divide(8, 2); // Calling the divide() method from AdvancedCalc
+        int r5 = obj.getPrivateMarks(); // Accessing privateMarks through a public method
+
+
 
         // Printing the results
         System.out.println("add: " + r1);
         System.out.println("sub: " + r2);
         System.out.println("multiply: " + r3);
         System.out.println("divide: " + r4);
+        System.out.println("Accessing Private Data (via method): " + r5);
+        //System.out.println("protected data :" + obj.protectedMarks); we can't access protected in different package calc file are inside the tools package
 
 
 //         Project Structure:

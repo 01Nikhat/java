@@ -1,3 +1,5 @@
+ 
+ /*====================First example :- abstract class and abstract method ============================= */
  abstract class A {
   // Using final keyword means this method is fixed and cannot be overridden in subclasses.
   public final void models() {
@@ -34,8 +36,31 @@ class B extends A{ //if we inherit abstract class A then we must implement the a
   // } //we can't overriden the method of models because of final keywords just because of this we can't change the method
 }
 
+
+/* ============================ second example :- abstract class only ===================================== */
+
+abstract class C {
+  public void sound(){
+      System.out.println("Sound quality :" + "Good");
+  }
+
+  public void DefaultApp(){
+    System.out.println("Default App :" + "WhatsApp" + " | " + "Facebook" + " | " + "Settings");
+}
+}
+
+  class D extends C{
+  public void Frequency(){
+    System.out.println("Dj frequency ");
+  }
+}
+
+
+
 public class Abstract {
   public static void main(String[] args) {
+
+    /* ========================== First Example ===========================  */
         // Case 1: B obj = new B();
         B obj1 = new B();
         obj1.features();       // Calls B's features()
@@ -75,5 +100,17 @@ public class Abstract {
 // | - uniqueToB()                 +-------------------+
 // +------------+
 
+
+
+/* ========================================= Second Example ==============================  */
+
+     // C obj4 = new C() ;  // Error: Cannot instantiate an abstract class
+
+     D obj3 = new D();
+    obj3.DefaultApp();
+    obj3.Frequency();
+    obj3.sound();
   }
+
+  
 }

@@ -26,7 +26,7 @@ public class SuperMethod {
       B obj = new B(); //whenever we will create a new object B() then it will call default cunstructor A() and implicity there is a a call super() method so it will goes to class A() because of inheritence and here call the default constructor A().
       //output is Constructor A Constructor B
       
-      //now if we want to call constructor parameter of B
+      //now if we want to call constructor A parameter of B
 
      // B obj2 = new B(5); 
       //output : Constructor A
